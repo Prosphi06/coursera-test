@@ -46,32 +46,32 @@
   padding: 0;
 
 }
-.section{
-	 background-color: #b3b319;
-	 height: 100%;
+ .section{
+	 background-color: #b2b319;
+	 height: 400px;
 	 padding: 5px;
 	 width: 100%;
-	 margin-right: 20px;
 	 margin-bottom: 20px;
-}
-.section{
-	background-color: #b3b319;
-	
+	 margin-right:  20px;
 }
 p{
 	padding: 10px;
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) {
-	
+	.col-md-12 .col-md-6 {
+		 background-color: #b3b319;
+	}
 	}
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-12
+	
 }
 /********** extra small devices only **********/
 @media (max-width: 767px) {
-	
+	.col-xs-12{
+		 background-color: #b3b319;
+	}
 	#section{
 		width: 80%;
 	}
