@@ -20,8 +20,8 @@
   border-bottom: 1px solid black;
   height: 30px;
 }
-#navbar-brand {
-	padding-left: 20px;
+.navbar-default .navbar-brand {
+	padding-left: 35px;
  	color: #61122f;
 }
  h1{ 
