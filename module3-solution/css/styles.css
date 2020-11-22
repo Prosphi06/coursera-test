@@ -43,15 +43,16 @@
 .row {
   width: 100%;
   margin: 0;
-	padding: 0;
+  padding: 0;
 
 }
-#section{
+.section{
 	 background-color: #b2b319;
-	 height: 1000px;
+	 height: 100%;
 	 padding: 5px;
-	 width: 95%;
-	 margin-top: 20px;
+	 width: 100%;
+	 margin-right: 20px;
+	 margin-bottom: 20px;
 }
 p{
 	padding: 10px;
@@ -62,7 +63,7 @@ p{
 	}
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-xs-12
+	.col-md-12
 }
 /********** extra small devices only **********/
 @media (max-width: 767px) {
